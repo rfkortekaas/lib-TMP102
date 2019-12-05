@@ -1,0 +1,29 @@
+{
+    "name": "TMP102",
+    "version": "0.1.0",
+    "description": "Library for the TMP102 temperature sensor.",
+    "keywords": "tmp102, i2c, temperature, driver",
+    "repository": 
+    {
+        "type": "git",
+        "url": "https://github.com/rfkortekaas/lib-TMP102.git"
+    },
+    "authors":
+    [
+        {
+            "name": "R.F. Kortekaas"
+        }
+    ],
+    "dependencies":
+    [
+        {
+            "name": "Wire"
+        },
+        {
+            "name": "TwoWireDevice",
+            "version": "https://github.com/knifter/lib-TwoWireDevice.git"
+        }
+    ],
+    "frameworks": "arduino",
+    "platforms": "*"
+}
